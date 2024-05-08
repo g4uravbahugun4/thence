@@ -12,7 +12,7 @@ function Navbar() {
       </div>
 
      
-      {location.pathname == '/freelancer-login' && (
+      {location.pathname === '/freelancer-login' && (
         <div className='close-button'>
           <Link to='/'>  <img src='Close.svg' /></Link>
         </div>
