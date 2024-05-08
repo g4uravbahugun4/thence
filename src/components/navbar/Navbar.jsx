@@ -14,7 +14,7 @@ function Navbar() {
      
       {location.pathname === '/freelancer-login' && (
         <div className='close-button'>
-          <Link to='/'>  <img src='Close.svg' /></Link>
+          <Link to='/'>  <img src='Close.svg' alt='Close' /></Link>
         </div>
       )}
 

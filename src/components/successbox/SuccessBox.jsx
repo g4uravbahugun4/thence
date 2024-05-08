@@ -5,7 +5,7 @@ function SuccessBox({timeLeft}) {
   return (
     <>
     <div className='successbox'>
-        <img src='/success.png'/>
+        <img src='/success.png' alt='Success'/>
           <div className='heading'>
               <div className='title'>Success Submitted</div>
               <div style={{marginTop:'30px'}} className='description'>Congratulations</div>

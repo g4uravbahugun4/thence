@@ -5,14 +5,14 @@ function Carousel() {
   return (
     <div className='carousel'>
         <div className='heroimg'>
-            <img style={{position:'static',margin:'auto'}} src='/Hero.png'/>
+            <img style={{position:'static',margin:'auto'}} src='/Hero.png' alt='Image'/>
             <div className='features'>
                 <div className='feature-headline-1'>40%</div>
                 <div className='feature-description-1'>Achieved reduction in project execution time by optimising team availability</div>
             </div>
 
             <div className='chip'>
-                <img src='rocket.svg'/>
+                <img src='rocket.svg' alt='Image'/>
                 <div className='chip-text'>
                     <div className='chip-text-heading'>10 Days</div>
                     <div className='chip-text-description'>Staff Development</div>
@@ -36,7 +36,7 @@ function Carousel() {
         
         <div className='explore-cta'>
             <span style={{padding:'8px'}}>Explore More</span>
-            <img src='arrow.svg'/>
+            <img src='arrow.svg' alt='Image'/>
         </div>
 
        </div>
