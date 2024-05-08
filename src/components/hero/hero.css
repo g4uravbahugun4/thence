@@ -1,0 +1,31 @@
+.main{
+    padding-top: 20px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    text-align: center;
+    width: 588px;
+    height:178px;
+    opacity: 0px;
+    margin: auto;
+}
+
+.title{
+font-size: 36px;
+font-weight: 400;
+line-height: 39.6px;
+letter-spacing: -0.02em;
+
+
+}
+.description{
+    font-family: Manrope;
+        font-size: 56px;
+        font-weight: 600;
+        line-height: 67.2px;
+        letter-spacing: -0.02em;
+        text-align: center;
+}

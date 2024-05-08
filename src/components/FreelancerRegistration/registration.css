@@ -1,0 +1,90 @@
+.registration{
+    width: 588px;
+margin: auto;
+margin-top: 20px;
+    opacity: 0px;
+
+}
+
+.form-input{
+margin: auto;
+width: 417px;
+height:75px;
+padding: 10px 30px 10px 30px;
+gap: 10px;
+border-radius: 64px;
+border: 1px;
+opacity: 0px;
+background: #EFEFEF;
+font-family: Manrope;
+font-size: 20px;
+font-weight: 500;
+line-height: 27.32px;
+text-align: left;
+color: #000000;
+
+}
+
+.form-input::placeholder{
+    width: 153px;
+height: 27px;
+gap: 0px;
+opacity: 0px;
+
+    font-family: Manrope;
+font-size: 20px;
+font-weight: 500;
+line-height: 27.32px;
+text-align: center;
+
+}
+
+.btn-inactive{
+    margin: auto;
+        width: 430px;
+        height: 75px;
+        padding: 10px 40px 10px 40px;
+        gap: 10px;
+        border-radius: 64px;
+        border: 1px;
+        opacity: 0px;
+cursor: pointer;
+    margin: auto;
+       
+    color: #FFFFFF;
+    background: #C9C9C9;
+
+   
+}
+.btn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn-active {
+    margin: auto;
+    width: 430px;
+    height: 75px;
+    padding: 10px 40px 10px 40px;
+    gap: 10px;
+    border-radius: 64px;
+    border: 1px;
+    opacity: 0px;
+cursor: pointer;
+    margin: auto;
+
+    background-color: #1C1C1C;
+    color: #FFFFFF;;
+
+
+}
+
+.error-message{
+
+    font-family: Manrope;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21.86px;
+        text-align: center;
+        color: #FF0808;
+}

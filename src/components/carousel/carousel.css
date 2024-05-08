@@ -1,0 +1,183 @@
+.carousel{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.heroimg{
+    position: relative;
+    width: 60%;
+    display: flex;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+   gap: 170px;
+}
+
+.content-headline{
+width: 398px;
+padding-top: 30px;
+gap: 0px;
+opacity: 0px;
+   
+}
+
+.content-heading{
+width: 100%;
+font-family: Manrope;
+font-size: 40px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: -0.02em;
+text-align: left;
+}
+
+.features{
+    display: flex;
+    background-color: white;
+    position:absolute;
+    flex-direction: column;
+    width:247.82px;
+    height: 210px;
+    top: 20%;
+    left: -30px;
+        padding: 30px;
+        gap: 10px;
+        border-radius: 27.11px;
+        opacity: 0px;
+        box-shadow: 0px 22.59px 36.14px 0px #1E1E1E17;
+}
+
+
+
+.feature-headline-1{
+    font-family: Switzer;
+        font-size: 64px;
+        font-weight: 500;
+        line-height: 76.8px;
+        letter-spacing: -0.03em;
+        text-align: left;
+}
+
+.feature-description-1{
+    font-family: Manrope;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 23.4px;
+        text-align: left;
+}
+
+.features-2 {
+    background: #002E18;
+    box-shadow: 0px 23.63px 37.81px 0px #1E1E1E17;
+    display: flex;
+
+    position: absolute;
+    flex-direction: column;
+    width: 217.82px;
+    height: 190px;
+    bottom:-10%;
+    right: 5%;
+    padding: 34px 30px 40px 36px;
+    gap: 20px;
+    border-radius: 28.36px;
+    border: 1.18px;
+    opacity: 0px;
+
+}
+
+.feature-headline-2{
+    font-family: Switzer;
+        font-size: 63.37px;
+        font-weight: 500;
+        line-height: 76.05px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color: #FFFFFF;
+       
+}
+
+.feature-description-2{
+    font-family: Manrope;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 23.4px;
+        text-align: left;
+        color: #CCCCCC;
+}
+
+.chip{
+    width: 235px;
+    height: 70px;
+    position: absolute;
+    bottom: 5%;
+    left: 90px;
+
+ background-color: white;
+        padding: 10px 22px 10px 10px;
+        gap: 14px;
+        border-radius: 111.54px;
+        opacity: 0px;
+        display: flex;
+        align-items: center;
+        border: Mixed solid;  
+        border-image-source: linear-gradient(159.14deg, #3D3D3D 6.08%, rgba(61, 61, 61, 0) 85.58%);
+        box-shadow: 0px 15.21px 35.49px 0px #00000017;
+}
+
+.chip-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.chip-text-heading{
+    font-family: Manrope;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32.78px;
+        text-align: left;
+        color: #1C1C1C;
+}
+
+.chip-text-description{
+    font-family: Manrope;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20.8px;
+        text-align: left;
+        color: #828282;    
+}
+
+.indicators{
+    margin-top: 30px;
+}
+
+.explore-cta{
+    width: 245px;
+      
+    background:#1C1C1C;
+            color: white;
+            font-family: Manrope;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 27.32px;
+                text-align: center;
+        padding: 21px 20px 21px 20px;
+        gap: 16px;
+        border-radius: 100px;
+        opacity: 0px;
+        cursor: pointer;
+}
+
+.explore-cta:hover {
+    background: linear-gradient(97.55deg, #1C1C1C 2.63%, #454444 105.2%),
+        linear-gradient(0deg, #4E4E4E, #4E4E4E);
+    color: white;
+}
