@@ -8,7 +8,7 @@ import Success from './screens/Success';
 function App() {
   return (
     <div style={{ padding: '14px' }}>
-    <BrowserRouter>
+    <BrowserRouter basename='/'>
       <Routes>
         <Route  path="/" element={<Home /> } />  
         <Route path="/freelancer-login" element={<FreelancerLogin />} />   
