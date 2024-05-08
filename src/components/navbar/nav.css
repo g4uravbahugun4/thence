@@ -9,7 +9,7 @@
     margin-top: 20px;
     border-radius: 65.28px;
     border: 1px solid #EAEAEA;
-    opacity: 0px;
+    ;
 }
 .cta{
     display: flex;
@@ -56,6 +56,6 @@
         gap: 10px;
         border-radius: 40px;
         border: 1px;
-        opacity: 0px;
+        ;
         border: 1px solid #CACACA
 }
