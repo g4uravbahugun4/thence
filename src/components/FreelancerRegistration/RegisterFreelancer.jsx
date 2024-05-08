@@ -43,7 +43,7 @@ function RegisterFreelancer() {
             <div style={{ width: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '20px', marginTop: '70px' }}>
             <input className='form-input' placeholder='Enter your name' type='text' value={name} onChange={handleNameChange}></input>
             <input className='form-input' placeholder='Enter your email' type='email' value={email} onChange={handleEmailChange}></input>
-            {errorMessage && <div style={{display:'flex',gap:'5px',alignItems:'center',width:'417px',margin:'auto'}}><img src='/error.svg'alt='Image' /><div className='error-message'>{errorMessage}</div></div>}
+            {errorMessage && <div style={{display:'flex',gap:'5px',alignItems:'center',width:'417px',margin:'auto'}}><img src='/error.svg'alt='abc' /><div className='error-message'>{errorMessage}</div></div>}
             <button className={`btn ${isFormValid ? 'btn-active' : 'btn-inactive'}`}  onClick={handleSubmit}>Submit</button>
         </div>
         </div>

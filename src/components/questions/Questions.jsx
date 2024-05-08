@@ -10,7 +10,7 @@ function Questions() {
           <div className='title-question'>Whats on your mind</div>
           <div className='description-question'>Ask Questions</div>
       </div>
-      <img src='/Union.svg' alt='Image'/>
+      <img src='/Union.svg' alt='abc'/>
       </div>
       <Faqs/>
       </div>
